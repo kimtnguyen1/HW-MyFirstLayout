@@ -1,0 +1,83 @@
+.global {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'DM Serif Display', serif;
+    height: 100vh;
+    padding: 5%;
+}
+.header {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 40px;
+}
+
+.a {
+    font-size: 50px;
+    color: grey;
+    font-weight:bold;
+    font-family: 'Playfair Display SC', serif;
+}
+.b {
+    font-size:25px;
+    font-weight: bold;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.header.image img {
+    width: 50%;
+    height: auto;
+}
+.menu {
+    display:flex;
+    color: black;
+}
+
+.menu li {
+    margin-left: 10px;
+    text-decoration: none;
+    list-style: none;
+    align-items: stretch; 
+    color: black;
+    margin: 35px; 
+    font-family: 'Playfair Display SC', serif;
+    font-size:18px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 960px;
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Playfair Display SC', serif;
+    color: black;
+
+}
+.content .aboutme{
+    width=50%;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content .image img{
+    height: auto;
+    width: 100%;
+    right: 0;
+    position: relative; 
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+    margin: 5px 2px;
+    background: black;
+    color: white;  
+  }
