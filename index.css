@@ -33,7 +33,7 @@
 }
 .menu {
     display:flex;
-    color: black;
+    color: grey;
 }
 
 .menu li {
